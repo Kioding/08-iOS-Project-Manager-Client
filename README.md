@@ -45,6 +45,7 @@
 ![drag and drop to 다른 테이블뷰](https://user-images.githubusercontent.com/65153742/125466165-23d903b2-1d81-4d7c-8c2c-caf3e293dad6.gif)
 <br><br>
 <hr>
+
 #### 새로운 Cell 추가,삭제 및 수정 :
 
 - Cell추가 : Delegate패턴을 이용하여 NewTodoFormViewController가 ProjectManagerViewController의 권한을 위임받아 데이터를 저장하는 배열에 append를 시키고 TableView를 reload 시키고 titleLabel에 개수를 갱신합니다.
